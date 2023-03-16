@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="results.html" method="GET">
+        <fieldset style="width: 500px;">
+            <legend>Contact information:</legend>
+            <table>
+                <tr>
+                    <td><Label>First name:</Label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td colspan="2">Preferred contact method:<br> </td>
+                </tr>
+                <tr>
+                    <td><Label>Last name:</Label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                    <td><input type="radio" id="email" name="pref_concactmehtod" value="Email"></td>
+                    <td><Label for="email">Email</Label><br></td>
+
+                </tr>
+                <tr>
+                    <td><Label>Email:</Label></td>
+                    <td><input type="text" id="emailaddress" name="emailaddress"></td>
+                    <td><input type="radio" id="telephone" name="pref_concactmehtod" value="Telephone"></td>
+                    <td><label for="telephone">Telephone</label><br></td>
+                </tr>
+                <tr>
+                    <td><Label>Telephone:</Label></td>
+                    <td><input type="text" id="telephonenumber" name="telephonenumber"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset style="width: 500px;">
+
+            <legend>Feedback:</legend>
+            <label>Message subject: </label>
+            <input type="text" id="messageSubject" name="messageSubject"><br>
+            <textarea name="message" rows="10" cols="50">
+        </textarea> <br>
+            <label>Attach a file: </label>
+            <input type="file" id="file"> <br>
+            <input type="submit" value="Send">
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
