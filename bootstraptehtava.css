@@ -1,0 +1,20 @@
+.col,
+.col-12 {}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    margin-top: 65px
+}
+
+.card-body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(225, 220, 230);
+
+}
+
+.card {
+    margin-bottom: 20px;
+}
